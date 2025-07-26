@@ -5,11 +5,10 @@
     <Version>5</Version>
     <Device name="GW2AR-18C" pn="GW2AR-LV18QN88C8/I7">gw2ar18c-000</Device>
     <FileList>
+        <File path="misterynano.sv" type="file.verilog" enable="1"/>
         <File path="atarist/acia.v" type="file.verilog" enable="1"/>
         <File path="atarist/acsi.v" type="file.verilog" enable="1"/>
         <File path="atarist/atarist.v" type="file.verilog" enable="1"/>
-        <File path="atarist/cubase2_dongle.v" type="file.verilog" enable="1"/>
-        <File path="atarist/cubase3_dongle.v" type="file.verilog" enable="1"/>
         <File path="atarist/dma.v" type="file.verilog" enable="1"/>
         <File path="atarist/io_fifo.v" type="file.verilog" enable="1"/>
         <File path="atarist/mfp.v" type="file.verilog" enable="1"/>
@@ -18,6 +17,8 @@
         <File path="atarist/mfp_timer.v" type="file.verilog" enable="1"/>
         <File path="atarist/stBlitter.sv" type="file.verilog" enable="1"/>
         <File path="atarist/ste_joypad.v" type="file.verilog" enable="1"/>
+        <File path="atarist/cubase2_dongle.v" type="file.verilog" enable="1"/>
+        <File path="atarist/cubase3_dongle.v" type="file.verilog" enable="1"/>
         <File path="fdc1772/fdc1772.v" type="file.verilog" enable="1"/>
         <File path="fdc1772/floppy.v" type="file.verilog" enable="1"/>
         <File path="fx68k/fx68k.sv" type="file.verilog" enable="1"/>
@@ -68,8 +69,8 @@
         <File path="misc/sysctrl.v" type="file.verilog" enable="1"/>
         <File path="misc/video_analyzer.v" type="file.verilog" enable="1"/>
         <File path="misc/atarist_keymap.v" type="file.verilog" enable="1"/>
-        <File path="misterynano.sv" type="file.verilog" enable="1"/>
         <File path="tang/nano20k/flash_dspi.v" type="file.verilog" enable="1"/>
+        <File path="tang/nano20k/gowin_clkdiv/gowin_clkdiv.v" type="file.verilog" enable="1"/>
         <File path="tang/nano20k/gowin_dpb/fdc_dpram.v" type="file.verilog" enable="1"/>
         <File path="tang/nano20k/gowin_dpb/sector_dpram.v" type="file.verilog" enable="1"/>
         <File path="tang/nano20k/gowin_rpll/flash_pll.v" type="file.verilog" enable="1"/>
